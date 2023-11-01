@@ -144,8 +144,8 @@ public class CinemasLab {
             while(count!=0)
             {
                 System.out.println("Выберите место, введя сначала ряд, а затем место:");
-                int column = in.nextInt();
-                int row = in.nextInt();
+                int column = in.nextInt()-1;
+                int row = in.nextInt()-1;
 
                 if(currHall.places[column][row])
                 {
